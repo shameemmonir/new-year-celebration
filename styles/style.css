@@ -50,3 +50,19 @@
 .party-heading{
     font-size: 50px;
 }
+
+/* New Park Hotel Start */
+.park-container{
+    margin-top: 100px;
+    text-align: center;
+}
+.section-text{
+    color: red
+}
+.btn-join-now{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
