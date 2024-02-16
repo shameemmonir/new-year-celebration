@@ -142,3 +142,22 @@
 .portfolio-image-bag2{
     padding: 0 15px 0 15px;
 }
+
+/* Newsletter area start  */
+.newsletter-container{
+    margin: 100px;
+    text-align: center;
+}
+.newsletter-email{
+    padding: 5px 20px;
+}
+.btn-subscribe{
+    color: white;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    margin-left: -5px;
+    border-radius: 0% 30px 30px 0%;
+    border: none;
+}
