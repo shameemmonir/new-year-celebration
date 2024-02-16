@@ -97,3 +97,28 @@
     border-radius: 50%;
     padding: 15px;
 }
+
+/* Holidays area start */
+.holidays-container{
+    margin: 100px;
+}
+.holidays-description{
+    text-align: center;
+}
+.holidays-header{
+    font-size: 14px;
+}
+.holidays-text{
+    color: red;
+    font-size: 50px;
+}
+.holidays-image{
+    display: flex;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.holidays-discount{
+    margin-top: -500px;
+    margin-left: 500px;
+}
