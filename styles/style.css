@@ -122,3 +122,23 @@
     margin-top: -500px;
     margin-left: 500px;
 }
+
+/* Portfolio area start  */
+.portfolio-container{
+    margin: 300px 100px 100px 100px;
+    /* margin: 100px; */
+}
+.portfolio-header{
+    color: red;
+    font-size: 14px;
+}
+.portfoli-text{
+    font-size: 40px;
+}
+.portfoli-image-first-row{
+    display: flex;
+    margin-top: 15px;
+}
+.portfolio-image-bag2{
+    padding: 0 15px 0 15px;
+}
