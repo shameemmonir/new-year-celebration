@@ -1,4 +1,4 @@
-.header{
+.header {
     background-image: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,7 +6,8 @@
     background-size: contain;
     background-position: center;
 }
-.header-text{
+
+.header-text {
     text-align: center;
     color: white;
     position: absolute;
@@ -15,51 +16,59 @@
     transform: translate(-50%, -50%);
     align-items: center;
 }
-.header-description{
+
+.header-description {
     font-size: 50px;
 }
 
 /* category section start */
-.category-section{
+.category-section {
     text-align: center;
 }
-.category-header{
+
+.category-header {
     color: red;
     font-size: 50px;
 }
-.category-description{
+
+.category-description {
     color: red;
 }
 
 /* Party section start here  */
-.section-container{
+.section-container {
     background-image: url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     background-size: contain;
     background-position: center;
+    margin-top: 100px;
 }
-.party-section{
+
+.party-section {
     display: flex;
     align-items: center;
     margin-left: 250px;
     padding-top: 50px;
     color: white;
 }
-.party-heading{
+
+.party-heading {
     font-size: 50px;
 }
 
 /* New Park Hotel Start */
-.park-container{
+.park-container {
     margin-top: 100px;
     text-align: center;
 }
-.section-text{
+
+.section-text {
     color: red
 }
-.btn-join-now{
+
+.btn-join-now {
     color: white;
     background-color: red;
     border: none;
@@ -68,28 +77,34 @@
 }
 
 /* Comming Soon Section start  */
-.comming-soon-container{
+.comming-soon-container {
     display: flex;
     margin: 100px;
 }
-.coming-soon-header{
+
+.coming-soon-header {
     font-size: 16px;
     color: red;
 }
-.coming-soon-text{
+
+.coming-soon-text {
     font-size: 30px;
 }
-.coming-soon-description{
+
+.coming-soon-description {
     margin-top: 70px;
 }
-.coming-soon-description-right{
+
+.coming-soon-description-right {
     margin-top: 70px;
 }
-.coming-soon-year{
+
+.coming-soon-year {
     color: red;
     font-size: 30px;
 }
-.coming-soon-pic{
+
+.coming-soon-pic {
     width: 25%;
     height: 25%;
     margin: 50px;
@@ -99,59 +114,80 @@
 }
 
 /* Holidays area start */
-.holidays-container{
+.holidays-container {
     margin: 100px;
 }
-.holidays-description{
+
+.holidays-description {
     text-align: center;
 }
-.holidays-header{
+
+.holidays-header {
     font-size: 14px;
 }
-.holidays-text{
+
+.holidays-text {
     color: red;
     font-size: 50px;
 }
-.holidays-image{
+
+.holidays-image {
     display: flex;
     background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
-.holidays-discount{
+
+.holidays-discount {
     margin-top: -500px;
     margin-left: 500px;
 }
 
 /* Portfolio area start  */
-.portfolio-container{
+.portfolio-container {
     margin: 300px 100px 100px 100px;
     /* margin: 100px; */
 }
-.portfolio-header{
+
+.portfolio-header {
     color: red;
     font-size: 14px;
 }
-.portfoli-text{
+
+.portfoli-text {
     font-size: 40px;
 }
-.portfoli-image-first-row{
+
+.portfoli-image-first-row {
     display: flex;
     margin-top: 15px;
 }
-.portfolio-image-bag2{
+
+.portfolio-image-bag2 {
     padding: 0 15px 0 15px;
 }
-
+.portfoli-image-first-row:hover .portfolio-image-bag2{
+    opacity: 0.5;
+}
+.portfolio-image-bag2 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
 /* Newsletter area start  */
-.newsletter-container{
+.newsletter-container {
     margin: 100px;
     text-align: center;
 }
-.newsletter-email{
+
+.newsletter-email {
     padding: 5px 20px;
 }
-.btn-subscribe{
+
+.btn-subscribe {
     color: white;
     background-color: red;
     padding-top: 10px;
@@ -160,4 +196,35 @@
     margin-left: -5px;
     border-radius: 0% 30px 30px 0%;
     border: none;
+}
+
+/* Footer section start  */
+.footer-container {
+    background-color: #070211;
+}
+
+.footer-description {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 70px;
+    color: white;
+}
+
+.footer-image {
+    text-align: center;
+}
+
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.copyright-description{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
 }
