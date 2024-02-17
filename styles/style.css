@@ -166,10 +166,10 @@
 .portfolio-image-bag2 {
     padding: 0 15px 0 15px;
 }
-.portfoli-image-first-row:hover .portfolio-image-bag2{
+.portfoli-image-first-row:hover .image{
     opacity: 0.5;
 }
-.portfolio-image-bag2 {
+.image {
     opacity: 1;
     display: block;
     width: 100%;
